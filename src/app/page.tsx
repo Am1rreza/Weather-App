@@ -1,5 +1,9 @@
+"use client";
 import { Input } from "@/components/Input";
+import { useState } from "react";
 
 export default function Home() {
-  return <Input />;
+  const [formValue, setFormValue] = useState("");
+
+  return <Input formValue={formValue} setFormValue={setFormValue} />;
 }
