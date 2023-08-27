@@ -1,3 +1,5 @@
+import { Input } from "@/components/Input";
+
 export default function Home() {
-  return <h1>Weather App</h1>;
+  return <Input />;
 }
