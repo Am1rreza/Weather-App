@@ -29,5 +29,5 @@ export default function LocationPage() {
     return <LoadingPage />;
   }
 
-  // return <Card data={data} />;
+  return <Card data={data} />;
 }
